@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<!-- 정보담당 html 와 제어담당 js를 분리 -->
+	<!-- html문법 -->
+	<input type="button" id="hw" value="Hello world">
+	
+	<!-- html문법으로 js코드 사용하기 -->
+	<script>
+		// 자바스크립트로 인식.
+		var hw = document.getElementById('hw');
+		//hw에서 클릭이 일어났을때 함수를 실행한다.
+		hw.addEventListener('click',function(){
+			alert("Hello world")
+		})
+	</script>
+</body>
+</html>
